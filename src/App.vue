@@ -1,10 +1,16 @@
 <script>
   import MyTitle from './components/myTitle.vue';
+  import AppHero from './components/AppHero.vue';
+  // import { defineAsyncComponent } from "vue";
 
   export default{
         name: "App",
         components: {
           MyTitle,
+          AppHero,
+
+            // HelloWorld: defineAsyncComponent(() =>
+            // import("./components/myTitle.vue")),
 
         }
     }
@@ -12,6 +18,7 @@
 
 <template>
   <div>
+    <AppHero/>
     <myTitle/>
   </div>
 </template>
