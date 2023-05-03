@@ -21,6 +21,7 @@
     <AppHero/>
     <myTitle/>
   </div>
+
 </template>
 
 <style scoped>
