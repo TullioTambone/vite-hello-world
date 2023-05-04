@@ -1,6 +1,6 @@
 <script>
     export default{
-        name: "myTitle",
+        name: "MyTitle",
         data() {
             return {
                 name: 'helloWorld',

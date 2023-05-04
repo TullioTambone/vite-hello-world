@@ -1,5 +1,5 @@
 <script>
-  import MyTitle from './components/myTitle.vue';
+  import MyTitle from './components/MyTitle.vue';
   import AppHero from './components/AppHero.vue';
   // import { defineAsyncComponent } from "vue";
 
@@ -19,7 +19,7 @@
 <template>
   <div>
     <AppHero/>
-    <myTitle/>
+    <MyTitle/>
   </div>
 
 </template>
